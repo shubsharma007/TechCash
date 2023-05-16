@@ -1,0 +1,40 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    ext.kotlin_version = '1.6.21'
+
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+        maven { url 'https://plugins.gradle.org/m2/' }
+        maven { url 'https://artifacts.applovin.com/android' }
+    }
+    dependencies {
+        // class
+        classpath 'com.android.tools.build:gradle:4.0.1'
+        classpath 'gradle.plugin.com.onesignal:onesignal-gradle-plugin:[0.12.10, 0.99.99]'
+        classpath 'com.google.gms:google-services:4.3.3'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath "com.applovin.quality:AppLovinQualityServiceGradlePlugin:+"
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+
+        maven { url 'https://maven.fabric.io/public' }
+        maven {
+            url 'https://android-sdk.is.com/'
+        }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

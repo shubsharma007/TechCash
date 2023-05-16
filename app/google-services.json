@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "100422237753",
+    "project_id": "techcash-25aa3",
+    "storage_bucket": "techcash-25aa3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:100422237753:android:287661c2e29f9c29c597e8",
+        "android_client_info": {
+          "package_name": "com.techpadna.techcash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "100422237753-8pfqb3uk5di14leh2ribgdji5jrde7sm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRydz42nrSVQQSBOcaK4q3_h5Ow40gD4w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "100422237753-8pfqb3uk5di14leh2ribgdji5jrde7sm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
